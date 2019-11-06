@@ -1,2 +1,2 @@
-2.6.1_beta8
-9dcff79a9ce46e8c9bc70f4ad5cb64d0
+2.6.2
+c9fcb0eae82b6c1d03665fe94192a22f
