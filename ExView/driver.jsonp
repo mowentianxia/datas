@@ -433,7 +433,7 @@
                 },
                 {
                     "name": "\u4e00\u672c\u6f2b\u753b\uff08APP\uff09",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u753b\u53f0\uff08APP\uff09",
@@ -457,7 +457,7 @@
                 },
                 {
                     "name": "CC\u6f2b\u753b\uff08PC\uff09",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "360\u6f2b\u753b\uff08PC\uff09",
@@ -509,7 +509,7 @@
                 },
                 {
                     "name": "X18\u6f2b\u753b\uff08PC\uff09",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u5e03\u5361\u6f2b\u753b\uff08PC\uff09",
@@ -673,7 +673,7 @@
                 },
                 {
                     "name": "\u65b0\u65b0\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u549a\u6f2b",
@@ -729,7 +729,7 @@
                 },
                 {
                     "name": "\u6f2b\u753b123",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "36\u6f2b\u753b",
@@ -821,7 +821,7 @@
                 },
                 {
                     "name": "\u8fde\u73af\u753b\u5c0f\u4eba\u4e66",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u6f2b\u753b\u94fa",
@@ -841,7 +841,7 @@
                 },
                 {
                     "name": "\u9ed1\u767d\u6f2b\u8bdd",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u672c",
@@ -1041,7 +1041,7 @@
                 },
                 {
                     "name": "\u638c\u4e0a\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "SS\u6f2b\u753b",
@@ -1105,7 +1105,7 @@
                 },
                 {
                     "name": "\u6f2b\u753b\u725b",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "52\u770b\u6f2b\u753b",
@@ -1121,7 +1121,7 @@
                 },
                 {
                     "name": "\u98de\u98de\u6f2b\u753b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u5600\u5600\u561f\u561f",
@@ -1249,7 +1249,7 @@
                 },
                 {
                     "name": "\u70ed\u95e8\u6f2b\u753b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "258\u6f2b\u753b",
@@ -1357,7 +1357,7 @@
                 },
                 {
                     "name": "G\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u9605\u5a92",
@@ -1381,7 +1381,7 @@
                 },
                 {
                     "name": "\u5929\u5929\u7231\u52a8\u6f2b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6d77\u8d3c\u5c0f\u7ad9",
@@ -1465,6 +1465,10 @@
                 },
                 {
                     "name": "\u6ef4\u54e9\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u516d\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
