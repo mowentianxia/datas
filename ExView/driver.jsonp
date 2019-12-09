@@ -242,6 +242,12 @@
                 "disabled":"VIP"
             },
             {
+                "name": "\u0032\u0030\u0034\u0038\u6838\u57fa\u7ad9",
+                "version": "0.0.1",
+                "disabled":"SSVIP",
+                "icon":"https://imgsa.baidu.com/forum/pic/item/35a365380cd791236f75c412a2345982b3b780e7.jpg"
+            },
+            {
                 "name": "\u4eb2\u5c0f\u8bf4",
                 "version": "0.0.1"
             },
