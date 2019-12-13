@@ -1446,6 +1446,10 @@
                 {
                     "name": "\u59b9\u5b50\u56fe",
                     "version": "0.0.1"
+                },
+                {
+                    "name": "Mangabz",
+                    "version": "0.0.1"
                 }
             ]
         ).filter(function(item){
