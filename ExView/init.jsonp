@@ -255,7 +255,7 @@
                 },
                 {
                     "name": "\u6f2b\u5ba2\u6808\uff08\u6b63\u7248\uff09",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u5e03\u5361\u6f2b\u753b\uff08\u6b63\u7248\uff09",
@@ -815,7 +815,7 @@
                 },
                 {
                     "name": "178\u6f2b\u753b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u597d\u901a\u6f2b",
@@ -1407,7 +1407,7 @@
                 },
                 {
                     "name": "\u4f18\u5a31\u9177",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u56fd\u4eba\u6f2b\u753b",
