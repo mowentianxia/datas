@@ -392,4 +392,41 @@ try{
 mySession.qqzoneword="\u5450\u5450~\u6211\u6b63\u5728\u4f7f\u7528ExView(\u5b98\u7f51:www.exview.ml,\u652f\u6301\u5404\u5927\u4e3b\u6d41\u7cfb\u7edf)\u8ffd\u65b0\u756a\u3001\u6f2b\u753b\u5462~\u8f6c\u8f7d\u5373\u53ef\u5171\u4eab\u6b64\u6536\u85cf!\n";
 mySession.shareurl='http://share.gtool.ml/jump.html?exv=1';
 // mySession.danmakuHost="http://110.80.136.9:2100/v3/";
+
+
+mySession.shareurlfn=function(shareurl,donefn){
+	try{
+		ExView.modules.curl({
+			url:"http://muzidwz.cn/sina_short.php?data="+encodeURIComponent(shareurl),
+			method:"GET",
+			successfn:function(result){
+				ExView.fw.hidePreloader();
+				try{
+					var shorturl='';
+					if((result||'').indexOf('http://t.cn/')==0){
+						shorturl=result;
+					}
+					donefn(shorturl||shareurl);
+				}catch(e){
+					donefn(shareurl);
+				}
+			},
+			errorfn:function(){
+				ExView.fw.hidePreloader();
+				donefn(shareurl);
+			},
+			showinfo:{
+				text: '正在生成二维码...',
+				title: "分享",
+				name:getlistname(myContent.pid,myContent.plugin),
+				img: getlistimg(myContent.pid,myContent.plugin)
+			}
+		});	
+	}catch(e){
+		ExView.fw.hidePreloader();
+		donefn(shareurl);
+	}
+}
+
+
 })();
