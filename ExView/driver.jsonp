@@ -1518,6 +1518,10 @@
                 {
                     "name": "\u53d7\u6f2b\u753b",
                     "version": "0.0.1"
+                },
+                {
+                    "name": "\u6b6a\u6b6a\u6f2b\u753b\uff08H\u6f2b\uff09",
+                    "version": "0.0.1"
                 }
             ]
         )// .filter(function(item){
