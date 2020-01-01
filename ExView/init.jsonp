@@ -598,6 +598,14 @@
                     "version": "0.0.1"
                 },
                 {
+                    "name": "\u6b6a\u6b6a\u6f2b\u753b\uff08H\u6f2b\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u827e\u7c73\u6f2b\u753b\uff08H\u6f2b\uff09",
+                    "version": "0.0.1"
+                },
+                {
                     "name": "\u6251\u98de\u6f2b\u753b",
                     "version": "0.0.4"
                 },
@@ -1247,7 +1255,7 @@
                 },
                 {
                     "name": "\u641c\u52a8\u6f2b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "168\u6f2b\u753b",
@@ -1486,7 +1494,31 @@
                     "version": "0.0.1"
                 },
                 {
-                    "name": "\u6b6a\u6b6a\u6f2b\u753b\uff08H\u6f2b\uff09",
+                    "name": "\u503e\u57ce\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u6f6e\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "Manganelo",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u4e5d\u5566\u5566\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u54c8\u54c8\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u571f\u8c46\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "46\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
