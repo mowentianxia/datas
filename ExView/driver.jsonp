@@ -1353,7 +1353,7 @@
                 },
                 {
                     "name": "MangaBat",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "MangaKakalot",
@@ -1553,6 +1553,10 @@
                 },
                 {
                     "name": "46\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u9177\u6f2b\u5c4b",
                     "version": "0.0.1"
                 }
             ]
