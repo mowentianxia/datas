@@ -218,6 +218,11 @@
                 "disabled":"VIP"
             },
             {
+                "name": "\u4e94\u6735\u7f8e\u5973\u5199\u771f\u89c6\u9891",
+                "version": "0.0.1",
+                "disabled":"VIP"
+            },
+            {
                 "name": "\u0032\u0030\u0034\u0038\u6838\u57fa\u7ad9",
                 "version": "0.0.2",
                 "disabled":"SSVIP",
