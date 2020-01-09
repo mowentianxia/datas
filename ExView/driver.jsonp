@@ -22,7 +22,7 @@
         return;
     }
     // var host="https://raw.githubusercontent.com/ghostgzt/ExView/master/";
-    var host="https://dev.tencent.com/u/gentle/p/datas/git/raw/master/ExView/";
+    var host="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/";
     // var host="https://github.com/ghostgzt/ExView/raw/master/";
     
     var json={"plugins":[
