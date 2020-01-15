@@ -1312,7 +1312,7 @@
                 },
                 {
                     "name": "\u54c6\u54e9\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u5947\u5ba2\u6f2b",
@@ -1528,6 +1528,14 @@
                 },
                 {
                     "name": "\u9177\u6f2b\u5c4b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u59ae\u59ae\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u65e5\u65e5\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
