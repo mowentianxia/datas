@@ -384,7 +384,7 @@ try{
 }
 // try{
 // 	// if(ExView.versionCode<=201906180){
-		sessionStorage.qrweixin="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/res/wxpay.png"/* sessionStorage.blankimg */;
+		sessionStorage.qrweixin="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/res/ylpay.png"/* sessionStorage.blankimg */;
 // 	// }
 // }catch(e){
 
