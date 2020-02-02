@@ -397,11 +397,13 @@ mySession.shareurl='http://share.gtool.ml/jump.html?exv=1';
 mySession.shareurlfn=function(shareurl,donefn){
 	try{
 		ExView.modules.curl({
-			url:"http://muzidwz.cn/sina_short.php?data="+encodeURIComponent(shareurl),
+			url:"http://shorturl.8446666.sojson.com/sina/shorturl?url="+encodeURIComponent(shareurl),
 			method:"GET",
 			successfn:function(result){
 				ExView.fw.hidePreloader();
 				try{
+					result=JSON.parse(result);
+					result=result.shorturl;
 					var shorturl='';
 					if((result||'').indexOf('http://t.cn/')==0){
 						shorturl=result;
