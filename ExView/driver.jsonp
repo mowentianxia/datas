@@ -661,6 +661,14 @@
                     "version": "0.0.1"
                 },
                 {
+                    "name": "\u54d4\u54d4\u6f2b\u753b\uff08H\u6f2b\uff09",
+                    "version": "0.0.3"
+                },
+                {
+                    "name": "\u514d\u8d39\u770b\u97e9\u6f2b\uff08H\u6f2b\uff09",
+                    "version": "0.0.1"
+                },
+                {
                     "name": "\u6251\u98de\u6f2b\u753b",
                     "version": "0.0.4"
                 },
@@ -1274,7 +1282,7 @@
                 },
                 {
                     "name": "\u4eb2\u4eb2\u6f2b\u753b",
-                    "version": "0.0.5"
+                    "version": "0.0.6"
                 },
                 {
                     "name": "HiComic",
@@ -1509,10 +1517,6 @@
                     "version": "0.0.3"
                 },
                 {
-                    "name": "\u54d4\u54d4\u6f2b\u753b\uff08\u0048\u6f2b\uff09",
-                    "version": "0.0.3"
-                },
-                {
                     "name": "\u6ef4\u54e9\u6f2b\u753b",
                     "version": "0.0.1"
                 },
@@ -1618,6 +1622,10 @@
                 },
                 {
                     "name": "TuHao\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u753b\u56ed\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
