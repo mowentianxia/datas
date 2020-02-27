@@ -283,7 +283,24 @@
                 "version": "0.0.1",
                 "disabled":"VIP",
             }
-        ].concat(
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,'')),
+                "title":item.name,
+                "type":"\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"\u9a7e\u7167",
+                "text":item.name,
+                "url":host+"epks/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        /* .concat */(
             [
                 {
                     "name": "\u817e\u8baf\u6f2b\u753b\uff08\u6b63\u7248\uff09",
@@ -1658,13 +1675,119 @@
                 "name":"mhydrule"+md5(item.name),
                 "icon":item.icon||getwordcover(cutstr(item.name,1,'')),
                 "title":item.name,
-                "type":"\u89c4\u5219",
+                "type":"\u6f2b\u753b\u89c4\u5219",
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
                 "disabled":item.disabled||"\u9a7e\u7167",
                 "text":item.name,
                 "url":host+"epks/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        [
+            {
+                "name": "\u516b\u6212\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "1156\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "123\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "135\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "158\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "605\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "88\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6469\u5361\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u767e\u4e07\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8c46\u74e3\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9ad8\u6e05\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u54c8\u9177\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u4e91\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8292\u679c\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u79d2\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "OK \u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u98d8\u82b1\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u901f\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5367\u9f99\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6700\u5927\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6700\u65b0\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#9e9e9e'),
+                "title":item.name,
+                "type":"\u89c6\u9891\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"VIP",
+                "text":item.name,
+                "url":host+"epks/videos/"+item.name+".epk"
             };
         });
         console.log(rulePlugins);
