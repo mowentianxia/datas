@@ -1850,7 +1850,60 @@
                 "url":host+"epks/videos/"+item.name+".epk"
             };
         });
-        console.log(rulePlugins);
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        [
+            {
+                "name": "56\u542c\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u61d2\u4eba\u542c\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u6211\u542c\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8f7b\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u770b\u89c1\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u7231\u4e66\u97f3",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u54d4\u54e9\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5e7b\u542c\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "6\u6708\u542c\u4e66\u7f51",
+                "version": "0.0.1"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#009688'),
+                "title":item.name,
+                "type":"\u97f3\u9891\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"VIP",
+                "text":item.name,
+                "url":host+"epks/audios/"+item.name+".epk"
+            };
+        });
         json.plugins=json.plugins.concat(rulePlugins);
     }catch(e){
         console.error(e)
