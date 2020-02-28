@@ -300,6 +300,66 @@
         });
         json.plugins=json.plugins.concat(rulePlugins);
         var rulePlugins=
+        [
+            {
+                "name": "\u604b\u604b\u5f71\u89c6",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"http://m.syasn.com/favicon.ico"
+            },
+            {
+                "name": "RedFlava\u7cbe\u9009\u5957\u56fe",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://www.redflava.com/wp-content/uploads/2019/07/apple-touch-icon-114x114.png"
+            },
+            {
+                "name": "94\u7f8e\u5973",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://www.xxtaotu.com/favicon.ico"
+            },
+            {
+                "name": "GoGo51",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://gogo51.com/img/logo.png"
+            },
+            {
+                "name": "\u7f8e\u56fe\u65e5",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://img.meituri.com/css/logo.png"
+            },
+            {
+                "name": "\u552f\u7f8e\u5973\u751f",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://nav.zuosi.best/ico/vmgirls.ico"
+            },
+            {
+                "name": "\u798f\u5229\u59b9\u5b50\u56fe",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"http://www.flmzt.com/favicon.ico"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),"#e91e63"),
+                "title":item.name,
+                "type":"\u5957\u56fe\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"\u9a7e\u7167",
+                "text":item.name,
+                "url":host+"epks/images/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
         /* .concat */(
             [
                 {
