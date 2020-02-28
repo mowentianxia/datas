@@ -1887,7 +1887,7 @@
             },
             {
                 "name": "6\u6708\u542c\u4e66\u7f51",
-                "version": "0.0.1"
+                "version": "0.0.2"
             }
         ]
         .map(function(item){
