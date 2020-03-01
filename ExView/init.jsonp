@@ -1845,7 +1845,7 @@
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
-                "disabled":item.disabled||"VIP",
+                "disabled":item.disabled||"SSVIP",
                 "text":item.name,
                 "url":host+"epks/videos/"+item.name+".epk"
             };
