@@ -293,7 +293,7 @@
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
-                "disabled":item.disabled||"\u9a7e\u7167",
+                "disabled":item.disabled||"VIP",
                 "text":item.name,
                 "url":host+"epks/"+item.name+".epk"
             };
