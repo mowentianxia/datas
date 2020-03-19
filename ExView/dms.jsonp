@@ -397,15 +397,13 @@ mySession.shareurl='http://share.gtool.ml/jump.html?exv=1';
 mySession.shareurlfn=function(shareurl,donefn){
 	try{
 		ExView.modules.curl({
-			url:"http://shorturl.8446666.sojson.com/qq/shorturl?url="+encodeURIComponent(shareurl),
+			url:"http://api.adf.ly/api.php?uid=3026336&key=fca7318ea32b427560b95d6463cd5474&url="+encodeURIComponent(shareurl),
 			method:"GET",
 			successfn:function(result){
 				ExView.fw.hidePreloader();
 				try{
-					result=JSON.parse(result);
-					result=result.shorturl;
 					var shorturl='';
-					if((result||'').indexOf('http://t.cn/')==0||(result||'').indexOf('http://url.cn/')==0){
+					if((result||'').indexOf('http')==0){
 						shorturl=result;
 					}
 					donefn(shorturl||shareurl);
