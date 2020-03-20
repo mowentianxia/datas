@@ -346,6 +346,16 @@
                 "version": "0.0.1",
                 "disabled":"VIP",
                 "icon":"http://www.flmzt.com/favicon.ico"
+            },
+            {
+                "name": "\u59b9\u5b50\u56fe",
+                "version": "0.0.1",
+                "disabled":"VIP",
+            },
+            {
+                "name": "\u5168\u56fe\u7f51",
+                "version": "0.0.1",
+                "disabled":"VIP",
             }
         ]
         .map(function(item){
@@ -1633,10 +1643,6 @@
                 {
                     "name": "\u516d\u6f2b\u753b",
                     "version": "0.0.3"
-                },
-                {
-                    "name": "\u59b9\u5b50\u56fe",
-                    "version": "0.0.1"
                 },
                 {
                     "name": "Mangabz",
