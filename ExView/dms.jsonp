@@ -92,7 +92,7 @@ if(!isdesktop()){
 		var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/ios/MoeRuntimeIOS.bin"+('?_='+(new Date()).getTime());
 		onlineupdatemd5="f860a9924f09c2ea51a96b3ba96550ab";
 		var onlineupdateversionName=newestversion;
-		var onlineupdateversionCode=202001100;
+		var onlineupdateversionCode=202004060;
 		onlineupdate=true;
 		var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 	}else{
