@@ -1814,8 +1814,12 @@
                 },
                 {
                     "name": "369\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
+                {
+                    "name": "\u96ea\u68a8\u6f2b\u753b",
+                    "version": "0.0.1"
+                },      
                 {
                     "name": "MangaHato",
                     "version": "0.0.1"
