@@ -1501,6 +1501,10 @@
                     "version": "0.0.1"
                 },
                 {
+                    "name": "MangaDex",
+                    "version": "0.0.1"
+                },    
+                {
                     "name": "MangaBat",
                     "version": "0.0.2"
                 },
