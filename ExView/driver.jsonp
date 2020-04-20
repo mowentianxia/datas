@@ -561,6 +561,14 @@
                     "version": "0.0.1"
                 },
                 {
+                    "name": "\u7ea2\u8c46\u6f2b\u753b\uff08APP\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u753b\u7f8a\uff08APP\uff09",
+                    "version": "0.0.1"
+                },
+                {
                     "name": "\u7231\u98d2\u6f2b\u753b\uff08PC\uff09",
                     "version": "0.0.2"
                 },
@@ -682,6 +690,18 @@
                 },
                 {
                     "name": "\u70ed\u95e8\u6f2b\u753b\uff08PC\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "90\u6f2b\u753b\uff08PC\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "98\u6f2b\u753b\uff08PC\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "517\u6f2b\u753b\uff08PC\uff09",
                     "version": "0.0.1"
                 },
                 {
@@ -1066,7 +1086,7 @@
                 },
                 {
                     "name": "517\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "ONE\u6f2b\u753b",
@@ -1170,7 +1190,7 @@
                 },
                 {
                     "name": "\u50f5\u5c38\u738b\u6f2b\u753b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u6f2b\u753b\u67dc",
@@ -1262,7 +1282,7 @@
                 },
                 {
                     "name": "\u54c7\u560e\u6f2b\u753b",
-                    "version": "0.0.4"
+                    "version": "0.0.5"
                 },
                 {
                     "name": "\u591c\u6597\u6f2b\u753b",
@@ -1503,7 +1523,7 @@
                 {
                     "name": "MangaDex",
                     "version": "0.0.1"
-                },                
+                },
                 {
                     "name": "MangaBat",
                     "version": "0.0.2"
@@ -1823,7 +1843,7 @@
                 {
                     "name": "\u96ea\u68a8\u6f2b\u753b",
                     "version": "0.0.1"
-                },      
+                },
                 {
                     "name": "MangaHato",
                     "version": "0.0.1"
@@ -1846,6 +1866,18 @@
                 },
                 {
                     "name": "\u4e00\u79d2\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u8349\u8393\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u5c0f\u6d63\u718a\u97e9\u6f2b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u4f18\u9177\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
