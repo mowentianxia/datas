@@ -394,40 +394,42 @@ mySession.qqzoneword="\u5450\u5450~\u6211\u6b63\u5728\u4f7f\u7528ExView(\u5b98\u
 mySession.shareurl='http://share.gtool.ml/jump.html?exv=1';
 // mySession.danmakuHost="http://110.80.136.9:2100/v3/";
 
-
-mySession.shareurlfn=function(shareurl,donefn){
-	try{
-		ExView.modules.curl({
-			url:"http://api.adf.ly/api.php?uid=3026336&key=fca7318ea32b427560b95d6463cd5474&url="+encodeURIComponent(shareurl),
-			method:"GET",
-			successfn:function(result){
-				ExView.fw.hidePreloader();
-				try{
-					var shorturl='';
-					if((result||'').indexOf('http')==0){
-						shorturl=result;
+if(ExView.versionCode<202005100){
+	mySession.shareurlfn=function(shareurl,donefn){
+		try{
+			ExView.modules.curl({
+				url:"http://api.adf.ly/api.php?uid=3026336&key=fca7318ea32b427560b95d6463cd5474&url="+encodeURIComponent(shareurl),
+				method:"GET",
+				successfn:function(result){
+					ExView.fw.hidePreloader();
+					try{
+						var shorturl='';
+						if((result||'').indexOf('http')==0){
+							shorturl=result;
+						}
+						donefn(shorturl||shareurl);
+					}catch(e){
+						donefn(shareurl);
 					}
-					donefn(shorturl||shareurl);
-				}catch(e){
+				},
+				errorfn:function(){
+					ExView.fw.hidePreloader();
 					donefn(shareurl);
+				},
+				showinfo:{
+					text: '正在生成二维码...',
+					title: "分享",
+					name:getlistname(myContent.pid,myContent.plugin),
+					img: getlistimg(myContent.pid,myContent.plugin)
 				}
-			},
-			errorfn:function(){
-				ExView.fw.hidePreloader();
-				donefn(shareurl);
-			},
-			showinfo:{
-				text: '正在生成二维码...',
-				title: "分享",
-				name:getlistname(myContent.pid,myContent.plugin),
-				img: getlistimg(myContent.pid,myContent.plugin)
-			}
-		});	
-	}catch(e){
-		ExView.fw.hidePreloader();
-		donefn(shareurl);
+			});	
+		}catch(e){
+			ExView.fw.hidePreloader();
+			donefn(shareurl);
+		}
 	}
 }
+
 
 // mySession.shareurlfn=function(shareurl,donefn){
 // 	try{
