@@ -86,27 +86,27 @@ var onlineupdatemd5;
 if(!isdesktop()){
 	if(isios()){
 		var nowversion=ExView.iosversion||ExView.version;
-		var newestversion="2.6.3_beta4";
-		var newestversioninfo="2020.04.17 2.6.3_beta4<br>1.\u4e3b\u9875\u6765\u6e90\u5217\u8868\u7ba1\u7406\u529f\u80fd\u6574\u6539<br>2.\u6536\u85cf\u7ba1\u7406\u589e\u52a0\u5355\u72ec\u6765\u6e90\u6e05\u7a7a\u529f\u80fd<br>3.\u4fee\u590d\u767b\u5f55\u5361\u4f4f\u95ee\u9898<br>4.\u4fee\u590d\u82e5\u5e72\u5c0f\u95ee\u9898<br>\u5176\u4ed6\u5e73\u53f0\u8bf7\u524d\u5f80\u5b98\u7f51\u4e0b\u8f7d<br>https://www.exview.ml/<br>\u8bf7\u5206\u4eabExView\u7ed9\u4f60\u7684\u670b\u53cb\uff0c\u611f\u8c22\u652f\u6301\uff0c\u6709\u4f60\u4eec\u652f\u6301ExView\u4f1a\u8d8a\u505a\u8d8a\u597d\uff01";
+		var newestversion="2.6.4";
+		var newestversioninfo="2020.05.10 2.6.4<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 		var updatepath='https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ';	
 		var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/ios/MoeRuntimeIOS.bin"+('?_='+(new Date()).getTime());
-		onlineupdatemd5="982e7598ed7aa70def52bbc8ce0e3ebf";
+		onlineupdatemd5="b5b160e1f09c65a3b408699440fca5b4";
 		var onlineupdateversionName=newestversion;
-		var onlineupdateversionCode=202004170;
+		var onlineupdateversionCode=202005100;
 		onlineupdate=true;
 		var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 	}else{
 		var nowversion=ExView.version;
-		var newestversion="2.6.3_beta3";
-		var newestversioninfo="2020.04.06 2.6.3_beta3<br>1.\u4e3b\u9875\u6765\u6e90\u5217\u8868\u7ba1\u7406\u529f\u80fd\u6574\u6539<br>2.\u6536\u85cf\u7ba1\u7406\u589e\u52a0\u5355\u72ec\u6765\u6e90\u6e05\u7a7a\u529f\u80fd<br>3.\u4fee\u590d\u82e5\u5e72\u5c0f\u95ee\u9898<br>\u5176\u4ed6\u5e73\u53f0\u8bf7\u524d\u5f80\u5b98\u7f51\u4e0b\u8f7d<br>https://www.exview.ml/<br>\u8bf7\u5206\u4eabExView\u7ed9\u4f60\u7684\u670b\u53cb\uff0c\u611f\u8c22\u652f\u6301\uff0c\u6709\u4f60\u4eec\u652f\u6301ExView\u4f1a\u8d8a\u505a\u8d8a\u597d\uff01";
+		var newestversion="2.6.4";
+		var newestversioninfo="2020.05.10 2.6.4<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 		// var updatepath=(iscrosswalk()?'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
 		// var updatepath=(iscrosswalk()?'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
 		// var updatepath=(iscrosswalk()?'https://vip.lanzous.com/i3gejwj':'https://vip.lanzous.com/i3gejxa')/* +('?_='+(new Date()).getTime()) */;
 		var updatepath="https://vip.lanzous.com/b743927";
 		try{
 			if(device.appPackName=='com.google.android.apps.maps') {
-				newestversion='2.6.3';
-				newestversioninfo='2019.12.10 2.6.3<br>\u65b0\u7248\u672c';
+				newestversion='2.6.4';
+				newestversioninfo='2019.05.10 2.6.4<br>新版本';
 				updatepath='https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ';
 			}
 		}catch(e){}
@@ -114,20 +114,20 @@ if(!isdesktop()){
 	}
 }else if(isdesktopmac()){
 	var nowversion=ExView.nativeversion;
-	var newestversion="0.2.78";
-	var newestversioninfo="2020.04.06 0.2.78<br>1.\u4e3b\u9875\u6765\u6e90\u5217\u8868\u7ba1\u7406\u529f\u80fd\u6574\u6539<br>2.\u6536\u85cf\u7ba1\u7406\u589e\u52a0\u5355\u72ec\u6765\u6e90\u6e05\u7a7a\u529f\u80fd<br>3.\u4fee\u590d\u82e5\u5e72\u5c0f\u95ee\u9898<br>\u5176\u4ed6\u5e73\u53f0\u8bf7\u524d\u5f80\u5b98\u7f51\u4e0b\u8f7d<br>https://www.exview.ml/<br>\u8bf7\u5206\u4eabExView\u7ed9\u4f60\u7684\u670b\u53cb\uff0c\u611f\u8c22\u652f\u6301\uff0c\u6709\u4f60\u4eec\u652f\u6301ExView\u4f1a\u8d8a\u505a\u8d8a\u597d\uff01";
+	var newestversion="0.2.79";
+	var newestversioninfo="2020.05.10 0.2.79<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 	var updatepath="https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ";
 	var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/mac/MoeRuntimeDesktopMac.bin"+('?_='+(new Date()).getTime());
-	onlineupdatemd5="3befcfaa5c3302cca2e1fd33cc9533b3";
+	onlineupdatemd5="497136ad9b9250f73201ae86eaebf7ad";
 	onlineupdate=true;
 	var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 }else{
 	var nowversion=ExView.nativeversion;
-	var newestversion="0.2.78";
-	var newestversioninfo="2020.04.06 0.2.78<br>1.\u4e3b\u9875\u6765\u6e90\u5217\u8868\u7ba1\u7406\u529f\u80fd\u6574\u6539<br>2.\u6536\u85cf\u7ba1\u7406\u589e\u52a0\u5355\u72ec\u6765\u6e90\u6e05\u7a7a\u529f\u80fd<br>3.\u4fee\u590d\u82e5\u5e72\u5c0f\u95ee\u9898<br>\u5176\u4ed6\u5e73\u53f0\u8bf7\u524d\u5f80\u5b98\u7f51\u4e0b\u8f7d<br>https://www.exview.ml/<br>\u8bf7\u5206\u4eabExView\u7ed9\u4f60\u7684\u670b\u53cb\uff0c\u611f\u8c22\u652f\u6301\uff0c\u6709\u4f60\u4eec\u652f\u6301ExView\u4f1a\u8d8a\u505a\u8d8a\u597d\uff01";
+	var newestversion="0.2.79";
+	var newestversioninfo="2020.05.10 0.2.79<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 	var updatepath="https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ";
 	var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/windows/MoeRuntimeDesktop.bin"+('?_='+(new Date()).getTime());
-	onlineupdatemd5="e877f155a804938d351e88f3ebe32407";
+	onlineupdatemd5="a8b9fb3f7e8cc23c4a692739405ca750";
 	onlineupdate=true;
 	var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 }
@@ -344,7 +344,7 @@ if(!debug){
 		if(!noredbag){
 			if(!isdesktop()){
 				try{
-					showdialog('\u6253\u5f00\u652f\u4ed8\u5b9d\u9996\u9875\u641c\u7d22<br><b class="color-red" style="letter-spacing:3px;">5891297</b><br>\u7acb\u5373\u9886\u6700\u9ad899\u5143\u7ea2\u5305!<br><a href="javascript:void(0)" class="button button-fill color-red" onclick="fileopener(\'alipays://platformapi/startapp?requestType=hotword_a&appId=20001003&keyword=5891297\',null,true)">\u524d\u5f80\u652f\u4ed8\u5b9d</a><br>\uff08\u6bcf\u5929\u53ef\u98861\u6b21\uff0c\u6709\u6548\u671f3\u5929\uff0c\u9886\u540e\u8d76\u7d27\u7528\u6389\uff01\uff09','\u9886\u652f\u4ed8\u5b9d\u7ea2\u5305\u5566\uff01',["\u786e\u5b9a","\u767e\u4e07\u4f53\u9a8c\u91d1"],function(){},function(){fileopener('alipayqr://platformapi/startapp?appId=20000067&url=https%3A%2F%2Frender.alipay.com%2Fp%2Fs%2Fi%2F%3Fscheme%3Dalipays%253A%252F%252Fplatformapi%252Fstartapp%253FappId%253D20000067%2526url%253Dhttps%25253A%25252F%25252Frender.alipay.com%25252Fp%25252Ff%25252Ffd-jqqeh032%25252Fpages%25252Finside%25252Findex.html%25253Fshareid%25253D2088702471372973%252526sign%25253DvKc%2525252FipwZff63lWF2jntWZGr8rHo3lpImusE85nwudq4%2525253D%252526enableWK%25253DYES',null,true)})
+					showdialog('\u6253\u5f00\u652f\u4ed8\u5b9d\u9996\u9875\u641c\u7d22<br><b class="color-red" style="letter-spacing:3px;">5891297</b><br>\u7acb\u5373\u9886\u6700\u9ad899\u5143\u7ea2\u5305!<br><a href="javascript:void(0)" class="button button-fill color-red" onclick="fileopener(\'alipays://platformapi/startapp?requestType=hotword_a&appId=20001003&keyword=5891297\',null,true)">\u524d\u5f80\u652f\u4ed8\u5b9d</a><br>\uff08\u6bcf\u5929\u53ef\u98861\u6b21\uff0c\u6709\u6548\u671f3\u5929\uff0c\u9886\u540e\u8d76\u7d27\u7528\u6389\uff01\uff09','\u9886\u652f\u4ed8\u5b9d\u7ea2\u5305\u5566\uff01',["\u786e\u5b9a"],function(){})
 				}catch(e){}		
 			}else{
 				ExView.fw.alert('<img style="max-width:100%;min-height:200px;"  src="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/res/redbag_mini.jpg"/>','\u6bcf\u65e5\u7ea2\u5305');
