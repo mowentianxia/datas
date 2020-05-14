@@ -1,2 +1,2 @@
-2.6.4_beta2
-8a90cdcdd6298e7e7cdefca3af1c0af7
+2.6.4_beta3
+d40faeaf4e9e96cad4bab39cc0ad1a6a
