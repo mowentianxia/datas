@@ -86,19 +86,19 @@ var onlineupdatemd5;
 if(!isdesktop()){
 	if(isios()){
 		var nowversion=ExView.iosversion||ExView.version;
-		var newestversion="2.6.4";
-		var newestversioninfo="2020.05.10 2.6.4<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
+		var newestversion="2.6.4_beta2";
+		var newestversioninfo="2020.05.14 2.6.4_beta2<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 		var updatepath='https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ';	
 		var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/ios/MoeRuntimeIOS.bin"+('?_='+(new Date()).getTime());
-		onlineupdatemd5="b5b160e1f09c65a3b408699440fca5b4";
+		onlineupdatemd5="8a90cdcdd6298e7e7cdefca3af1c0af7";
 		var onlineupdateversionName=newestversion;
-		var onlineupdateversionCode=202005100;
+		var onlineupdateversionCode=202005140;
 		onlineupdate=true;
 		var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 	}else{
 		var nowversion=ExView.version;
-		var newestversion="2.6.4";
-		var newestversioninfo="2020.05.10 2.6.4<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
+		var newestversion="2.6.4_beta2";
+		var newestversioninfo="2020.05.14 2.6.4_beta2<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 		// var updatepath=(iscrosswalk()?'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
 		// var updatepath=(iscrosswalk()?'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
 		// var updatepath=(iscrosswalk()?'https://vip.lanzous.com/i3gejwj':'https://vip.lanzous.com/i3gejxa')/* +('?_='+(new Date()).getTime()) */;
@@ -114,20 +114,20 @@ if(!isdesktop()){
 	}
 }else if(isdesktopmac()){
 	var nowversion=ExView.nativeversion;
-	var newestversion="0.2.79";
-	var newestversioninfo="2020.05.10 0.2.79<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
+	var newestversion="0.2.80";
+	var newestversioninfo="2020.05.14 0.2.80<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 	var updatepath="https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ";
 	var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/mac/MoeRuntimeDesktopMac.bin"+('?_='+(new Date()).getTime());
-	onlineupdatemd5="497136ad9b9250f73201ae86eaebf7ad";
+	onlineupdatemd5="ab0ec1609d69e9e99837e7eebe3c5010";
 	onlineupdate=true;
 	var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 }else{
 	var nowversion=ExView.nativeversion;
-	var newestversion="0.2.79";
-	var newestversioninfo="2020.05.10 0.2.79<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
+	var newestversion="0.2.80";
+	var newestversioninfo="2020.05.104 0.2.80<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 	var updatepath="https://pan.baidu.com/s/1A2qEvVRFlmRgLn9RRLeSsQ";
 	var onlineupdatepath="https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/windows/MoeRuntimeDesktop.bin"+('?_='+(new Date()).getTime());
-	onlineupdatemd5="a8b9fb3f7e8cc23c4a692739405ca750";
+	onlineupdatemd5="edd7d429aacae473f4bcb78f93d4999a";
 	onlineupdate=true;
 	var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 }
