@@ -433,40 +433,6 @@ if(ExView.versionCode<202005100){
 }
 
 
-// mySession.shareurlfn=function(shareurl,donefn){
-// 	try{
-// 		ExView.modules.curl({
-// 			url:"http://www.sinadwz.cn/url/dwz.php?url_long="+encodeURIComponent(shareurl),
-// 			method:"GET",
-// 			successfn:function(result){
-// 				ExView.fw.hidePreloader();
-// 				try{
-// 					// result=JSON.parse(result);
-// 					// result=result.shorturl;
-// 					// var shorturl='';
-// 					if((result||'').indexOf('://t.cn/')!=-1||(result||'').indexOf('://url.cn/')!=-1){
-// 						shorturl=result;
-// 					}
-// 					donefn(shorturl||shareurl);
-// 				}catch(e){
-// 					donefn(shareurl);
-// 				}
-// 			},
-// 			errorfn:function(){
-// 				ExView.fw.hidePreloader();
-// 				donefn(shareurl);
-// 			},
-// 			showinfo:{
-// 				text: '正在生成二维码...',
-// 				title: "分享",
-// 				name:getlistname(myContent.pid,myContent.plugin),
-// 				img: getlistimg(myContent.pid,myContent.plugin)
-// 			}
-// 		});	
-// 	}catch(e){
-// 		ExView.fw.hidePreloader();
-// 		donefn(shareurl);
-// 	}
-// }
+
 
 })();
