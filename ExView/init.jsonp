@@ -1110,7 +1110,7 @@
                 },
                 {
                     "name": "\u4e00\u76f4\u770b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u6c57\u6c57\u9177\u6f2b",
@@ -1982,6 +1982,10 @@
                 },
                 {
                     "name": "MangaRock",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u62f7\u8d1d\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
