@@ -674,7 +674,7 @@
                 },
                 {
                     "name": "\u516d\u6f2b\u753b\uff08PC\uff09",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "1359\u6f2b\u753b\uff08PC\uff09",
@@ -706,6 +706,10 @@
                 },
                 {
                     "name": "\u5154\u5154\u5e9c\uff08PC\uff09",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u753b\u5457\uff08PC\uff09",
                     "version": "0.0.1"
                 },
                 {
@@ -1338,7 +1342,7 @@
                 },
                 {
                     "name": "666\u6f2b\u753b",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "jpm1234\u6f2b\u753b",
@@ -1678,7 +1682,7 @@
                 },
                 {
                     "name": "\u516d\u6f2b\u753b",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "Mangabz",
@@ -1770,7 +1774,7 @@
                 },
                 {
                     "name": "8Comic",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "40\u6f2b\u753b",
@@ -1926,6 +1930,58 @@
                 },
                 {
                     "name": "\u61a8\u61a8\u7684\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u72ec\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "RoozFun\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u9ed1\u8001\u6c49\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "97\u6f2b\u753b\u7f51",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u7b14\u8da3\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "ACG\u548c\u8c10\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u8482\u4e9a\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "2Comic",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u753b\u5457",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "X\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "MangaOwl",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "MangaFox",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "MangaRock",
                     "version": "0.0.1"
                 }
             ]
