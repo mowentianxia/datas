@@ -374,6 +374,284 @@
         });
         json.plugins=json.plugins.concat(rulePlugins);
         var rulePlugins=
+        [
+            {
+                "name": "\u65b0\u7b2c\u4e00\u7248\u4e3b",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u7b2c\u4e8c\u4e66\u5305",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5fa1\u5b85\u6587",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e5d\u56db\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+            {
+                "name": "SiS\u6587\u5b66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5c31\u662f\u8981\u7231",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5341\u4e03\u4e66\u5c4b",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e09Z\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e94\u4e8c\u4e66\u5e93",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e66\u5305123",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8eb2\u7740\u770b",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u75af\u60c5\u9605\u8bfb",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8138\u7ea2\u5fc3\u8df3",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5988\u5988\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6cca\u661f\u77f3\u4e66\u9662",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8089\u8089\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8089\u8272\u4e66\u5c4b",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e66\u697c\u5427",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5a77\u9605\u4e2d\u6587",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e61\u6751\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5c0f\u5f3a520",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5c0f\u5f3a\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u9177\u4e2d\u6587",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e00\u8d77\u8272",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u4e00\u4e16\u4e66\u57ce",
+                "version": "0.0.1"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#f44336'),
+                "title":item.name,
+                "type":"\u91cd\u5c0f\u8bf4\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"SSVIP",
+                "text":item.name,
+                "url":host+"epks/novels/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        [
+            {
+                "name": "\u516b\u6212\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "1156\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "123\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "135\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "158\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "605\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "88\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6469\u5361\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u767e\u4e07\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8c46\u74e3\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9ad8\u6e05\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u54c8\u9177\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u9177\u4e91\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8292\u679c\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u79d2\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "OK \u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u98d8\u82b1\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u901f\u64ad\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5367\u9f99\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6700\u5927\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u6700\u65b0\u8d44\u6e90\u7f51",
+                "version": "0.0.1"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#9e9e9e'),
+                "title":item.name,
+                "type":"\u89c6\u9891\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"SSVIP",
+                "text":item.name,
+                "url":host+"epks/videos/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        [
+            {
+                "name": "56\u542c\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u61d2\u4eba\u542c\u4e66",
+                "version": "0.0.2"
+            },
+            {
+                "name": "\u9177\u6211\u542c\u4e66",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u8f7b\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u770b\u89c1\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u7231\u4e66\u97f3",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u54d4\u54e9\u97f3\u4e50",
+                "version": "0.0.1"
+            },
+            {
+                "name": "\u5e7b\u542c\u7f51",
+                "version": "0.0.1"
+            },
+            {
+                "name": "6\u6708\u542c\u4e66\u7f51",
+                "version": "0.0.2"
+            }
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#009688'),
+                "title":item.name,
+                "type":"\u97f3\u9891\u89c4\u5219",
+                "version":item.version,
+                "author":"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"VIP",
+                "text":item.name,
+                "url":host+"epks/audios/"+item.name+".epk"
+            };
+        });
+        json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
         /* .concat */(
             [
                 {
@@ -2004,284 +2282,6 @@
                 "disabled":item.disabled||"\u9a7e\u7167",
                 "text":item.name,
                 "url":host+"epks/"+item.name+".epk"
-            };
-        });
-        json.plugins=json.plugins.concat(rulePlugins);
-        var rulePlugins=
-        [
-            {
-                "name": "\u65b0\u7b2c\u4e00\u7248\u4e3b",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u7b2c\u4e8c\u4e66\u5305",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5fa1\u5b85\u6587",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e5d\u56db\u5c0f\u8bf4",
-                "version": "0.0.1"
-            },
-            {
-                "name": "SiS\u6587\u5b66",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5c31\u662f\u8981\u7231",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5341\u4e03\u4e66\u5c4b",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e09Z\u5c0f\u8bf4",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e94\u4e8c\u4e66\u5e93",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e66\u5305123",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8eb2\u7740\u770b",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u75af\u60c5\u9605\u8bfb",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8138\u7ea2\u5fc3\u8df3",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5988\u5988\u5c0f\u8bf4",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u6cca\u661f\u77f3\u4e66\u9662",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8089\u8089\u4e66",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8089\u8272\u4e66\u5c4b",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e66\u697c\u5427",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5a77\u9605\u4e2d\u6587",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e61\u6751\u5c0f\u8bf4",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5c0f\u5f3a520",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5c0f\u5f3a\u5c0f\u8bf4",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u9177\u9177\u4e2d\u6587",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e00\u8d77\u8272",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u4e00\u4e16\u4e66\u57ce",
-                "version": "0.0.1"
-            }
-        ]
-        .map(function(item){
-            return {
-                "name":"mhydrule"+md5(item.name),
-                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#f44336'),
-                "title":item.name,
-                "type":"\u91cd\u5c0f\u8bf4\u89c4\u5219",
-                "version":item.version,
-                "author":"CCAV",
-                "lowicon":"img/logo.png",
-                "disabled":item.disabled||"SSVIP",
-                "text":item.name,
-                "url":host+"epks/novels/"+item.name+".epk"
-            };
-        });
-        json.plugins=json.plugins.concat(rulePlugins);
-        var rulePlugins=
-        [
-            {
-                "name": "\u516b\u6212\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "1156\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "123\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "135\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "158\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "605\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "88\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u6469\u5361\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u767e\u4e07\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8c46\u74e3\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u9ad8\u6e05\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u54c8\u9177\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u9177\u64ad\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u9177\u4e91\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8292\u679c\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u79d2\u64ad\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "OK \u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u98d8\u82b1\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u901f\u64ad\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5367\u9f99\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u6700\u5927\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u6700\u65b0\u8d44\u6e90\u7f51",
-                "version": "0.0.1"
-            }
-        ]
-        .map(function(item){
-            return {
-                "name":"mhydrule"+md5(item.name),
-                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#9e9e9e'),
-                "title":item.name,
-                "type":"\u89c6\u9891\u89c4\u5219",
-                "version":item.version,
-                "author":"CCAV",
-                "lowicon":"img/logo.png",
-                "disabled":item.disabled||"SSVIP",
-                "text":item.name,
-                "url":host+"epks/videos/"+item.name+".epk"
-            };
-        });
-        json.plugins=json.plugins.concat(rulePlugins);
-        var rulePlugins=
-        [
-            {
-                "name": "56\u542c\u4e66",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u61d2\u4eba\u542c\u4e66",
-                "version": "0.0.2"
-            },
-            {
-                "name": "\u9177\u6211\u542c\u4e66",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u8f7b\u97f3\u4e50",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u770b\u89c1\u97f3\u4e50",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u7231\u4e66\u97f3",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u54d4\u54e9\u97f3\u4e50",
-                "version": "0.0.1"
-            },
-            {
-                "name": "\u5e7b\u542c\u7f51",
-                "version": "0.0.1"
-            },
-            {
-                "name": "6\u6708\u542c\u4e66\u7f51",
-                "version": "0.0.2"
-            }
-        ]
-        .map(function(item){
-            return {
-                "name":"mhydrule"+md5(item.name),
-                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#009688'),
-                "title":item.name,
-                "type":"\u97f3\u9891\u89c4\u5219",
-                "version":item.version,
-                "author":"CCAV",
-                "lowicon":"img/logo.png",
-                "disabled":item.disabled||"VIP",
-                "text":item.name,
-                "url":host+"epks/audios/"+item.name+".epk"
             };
         });
         json.plugins=json.plugins.concat(rulePlugins);
