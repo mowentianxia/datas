@@ -964,7 +964,7 @@
                 },
                 {
                     "name": "\u7231\u7c73\u63a8\u6f2b\u753b\uff08PC\uff09",
-                    "version": "0.0.4"
+                    "version": "0.0.5"
                 },
                 {
                     "name": "\u70ed\u95e8\u6f2b\u753b\uff08PC\uff09",
@@ -1872,7 +1872,7 @@
                 },
                 {
                     "name": "\u591a\u591a\u6f2b\u753b",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "\u5929\u5929\u7231\u52a8\u6f2b",
@@ -2068,7 +2068,7 @@
                 },
                 {
                     "name": "\u7231\u7c73\u63a8\u6f2b\u753b",
-                    "version": "0.0.5"
+                    "version": "0.0.6"
                 },
                 {
                     "name": "\u4fa0\u6f2b\u753b",
@@ -2232,11 +2232,11 @@
                 },
                 {
                     "name": "ACG\u548c\u8c10\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u8482\u4e9a\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "2Comic",
