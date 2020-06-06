@@ -356,6 +356,11 @@
                 "name": "\u5168\u56fe\u7f51",
                 "version": "0.0.1",
                 "disabled":"VIP",
+            },
+            {
+                "name": "\u5b85\u7537\u5973\u795e",
+                "version": "0.0.1",
+                "disabled":"VIP",
             }
         ]
         .map(function(item){
