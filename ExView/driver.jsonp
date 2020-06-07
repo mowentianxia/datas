@@ -263,6 +263,12 @@
                 "icon":"https://imgsa.baidu.com/forum/pic/item/35a365380cd791236f75c412a2345982b3b780e7.jpg"
             },
             {
+                "name": "\u54d4\u54e9\u8f7b\u5c0f\u8bf4",
+                "version": "0.0.1",
+                "disabled":"VIP",
+                "icon":"https://graph.baidu.com/resource/12659b232f82991ad5c6101591541286.jpg"
+            },
+            {
                 "name": "\u4eb2\u5c0f\u8bf4",
                 "version": "0.0.1"
             },
