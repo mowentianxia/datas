@@ -413,6 +413,7 @@
                 "url":host+"epks/light-novels/"+item.name+".epk"
             };
         });
+        json.plugins=json.plugins.concat(rulePlugins);
         var rulePlugins=
         [
             {
