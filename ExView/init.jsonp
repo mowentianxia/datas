@@ -404,7 +404,7 @@
                 "name":"mhydrule"+md5(item.name),
                 "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#795548'),
                 "title":item.name,
-                "type":"\u91cd\u5c0f\u8bf4\u89c4\u5219",
+                "type":"\u8f7b\u5c0f\u8bf4\u89c4\u5219",
                 "version":item.version,
                 "author":item.author||"CCAV",
                 "lowicon":"img/logo.png",
