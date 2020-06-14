@@ -207,12 +207,6 @@
 				"icon":"https://imgsa.baidu.com/forum/pic/item/76084bfbfbedab645453c5e4f836afc379311efc.jpg"
             },
             {
-                "name": "\u54d4\u54e9\u8f7b\u5c0f\u8bf4",
-                "version": "0.0.1",
-                "disabled":"VIP",
-                "icon":"https://graph.baidu.com/resource/12659b232f82991ad5c6101591541286.jpg"
-            },
-            {
                 "name": "\u51f9\u51f8\u5427",
                 "version": "0.0.2",
                 "disabled":"VIP"
@@ -265,12 +259,8 @@
             {
                 "name": "2048\u6838\u57fa\u7ad9",
                 "version": "0.0.2",
-                "disabled":"SSVIP",
+                "disabled":"VIP",
                 "icon":"https://imgsa.baidu.com/forum/pic/item/35a365380cd791236f75c412a2345982b3b780e7.jpg"
-            },
-            {
-                "name": "\u4eb2\u5c0f\u8bf4",
-                "version": "0.0.1"
             },
             {
                 "name": "\u559c\u9a6c\u62c9\u96c5",
@@ -303,7 +293,7 @@
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
-                "disabled":item.disabled||"\u9a7e\u7167",
+                "disabled":item.disabled/* ||"\u9a7e\u7167" */,
                 "text":item.name,
                 "url":host+"epks/"+item.name+".epk"
             };
@@ -378,12 +368,51 @@
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
-                "disabled":item.disabled||"\u9a7e\u7167",
+                "disabled":item.disabled/* ||"\u9a7e\u7167" */,
                 "text":item.name,
                 "url":host+"epks/images/"+item.name+".epk"
             };
         });
         json.plugins=json.plugins.concat(rulePlugins);
+        var rulePlugins=
+        [
+            {
+                "name": "哔哩轻小说",
+                "version": "0.0.2",
+                "author":"叶落岚起",
+                "icon":"https://graph.baidu.com/resource/12659b232f82991ad5c6101591541286.jpg"
+            },
+            {
+                "name": "铅笔小说",
+                "version": "0.0.1",
+                "author":"叶落岚起",
+                "icon":"https://graph.baidu.com/resource/126ff8541708cbf2627b601592127605.jpg"
+            },
+            {
+                "name": "小说柜",
+                "version": "0.0.1",
+                "author":"叶落岚起",
+                "icon":"https://graph.baidu.com/resource/126f29779dbd97962d1f601592127043.jpg"
+            },
+            {
+                "name": "\u4eb2\u5c0f\u8bf4",
+                "version": "0.0.1"
+            },
+        ]
+        .map(function(item){
+            return {
+                "name":"mhydrule"+md5(item.name),
+                "icon":item.icon||getwordcover(cutstr(item.name,1,''),'#795548'),
+                "title":item.name,
+                "type":"\u91cd\u5c0f\u8bf4\u89c4\u5219",
+                "version":item.version,
+                "author":item.author||"CCAV",
+                "lowicon":"img/logo.png",
+                "disabled":item.disabled||"SSVIP",
+                "text":item.name,
+                "url":host+"epks/light-novels/"+item.name+".epk"
+            };
+        });
         var rulePlugins=
         [
             {
@@ -602,7 +631,7 @@
                 "version":item.version,
                 "author":"CCAV",
                 "lowicon":"img/logo.png",
-                "disabled":item.disabled||"SSVIP",
+                "disabled":item.disabled||"VIP",
                 "text":item.name,
                 "url":host+"epks/videos/"+item.name+".epk"
             };
