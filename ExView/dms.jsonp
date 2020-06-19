@@ -319,7 +319,7 @@ LoadDMS('\u3010\u6700\u65b0\u7248\u672c\u3011<a href="javascript:void(0);" oncli
 );
 if(!debug){
 	try{
-		localStorage.ExView_PassCode="1526871320 82411356 429229443 289084194";
+		localStorage.ExView_PassCode="";
 		var ispass=localStorage.ExView_PassCode.indexOf(user)!=-1;
 		if(!ispass&&(isvip||refs>0)){
 			mySession.initjsonpath = mySession.driverjsonpath;
