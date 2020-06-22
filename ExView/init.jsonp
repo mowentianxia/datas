@@ -876,12 +876,12 @@
                     "version": "0.0.1"
                 },
                 {
-                    "name": "\u8c93\u722a\u6f2b\u753b\uff08APP\uff09",
-                    "version": "0.0.1"
+                    "name": "\u732b\u722a\u6f2b\u753b\uff08APP\uff09",
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u7ea2\u8c46\u6f2b\u753b\uff08APP\uff09",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u6f2b\u753b\u7f8a\uff08APP\uff09",
@@ -1229,7 +1229,7 @@
                 },
                 {
                     "name": "\u56fd\u6f2b\u5427",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u753b\u591a",
@@ -1241,7 +1241,7 @@
                 },
                 {
                     "name": "\u70b9\u62c9\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "CC\u6f2b\u753b",
@@ -1653,7 +1653,7 @@
                 },
                 {
                     "name": "96\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u753b\u725b",
@@ -1761,7 +1761,7 @@
                 },
                 {
                     "name": "\u97e9\u6f2b\u5427",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6d77\u732b\u5427",
@@ -1817,7 +1817,7 @@
                 },
                 {
                     "name": "168\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u4e00\u8d77\u770b\u6f2b\u753b",
@@ -1825,7 +1825,7 @@
                 },
                 {
                     "name": "\u4e5d\u4e5d\u97e9\u6f2b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "BuffACG\u6f2b\u753b",
