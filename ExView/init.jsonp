@@ -2350,6 +2350,10 @@
                 {
                     "name": "CC\u6f2b\u753b12",
                     "version": "0.0.1"
+                },
+                {
+                    "name": "\u6b66\u4fa0\u6f2b\u753b",
+                    "version": "0.0.1"
                 }
             ]
         )// .filter(function(item){
