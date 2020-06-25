@@ -2134,6 +2134,10 @@
                 {
                     "name": "\u524d\u672a\u6f2b\u753b",
                     "version": "0.0.1"
+                },
+                {
+                    "name": "\u6f2b\u753b\u72c2",
+                    "version": "0.0.1"
                 }
             ]
         )// .filter(function(item){
