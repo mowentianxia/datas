@@ -97,7 +97,7 @@ if(!isdesktop()){
 		var feedbackpath="http://wpa.qq.com/msgrd?v=3&uin=1649752183&site=qq&menu=yes";
 	}else{
 		var nowversion=ExView.version;
-		var newestversion="2.6.4_beta5";
+		var newestversion="2.6.4_beta5_fixed";
 		var newestversioninfo="2020.07.03 2.6.4_beta5<br>修复若干问题<br>其他平台请前往官网下载<br>https://www.exview.ml/<br>请分享ExView给你的朋友，感谢支持，有你们支持ExView会越做越好！";
 		// var updatepath=(iscrosswalk()?'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gentle.coding.net/p/datas/d/datas/git/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
 		// var updatepath=(iscrosswalk()?'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExViewPlus-separate-release-lastest.apk':'https://gitee.com/gentle/Datas/raw/master/ExView/platforms/android/ExView-release-lastest.apk')+('?_='+(new Date()).getTime());
