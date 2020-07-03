@@ -378,13 +378,13 @@
         [
             {
                 "name": "哔哩轻小说",
-                "version": "0.0.2",
+                "version": "0.0.3",
                 "author":"叶落岚起",
                 "icon":"https://graph.baidu.com/resource/12659b232f82991ad5c6101591541286.jpg"
             },
             {
                 "name": "铅笔小说",
-                "version": "0.0.1",
+                "version": "0.0.2",
                 "author":"叶落岚起",
                 "icon":"https://graph.baidu.com/resource/126ff8541708cbf2627b601592127605.jpg"
             },
