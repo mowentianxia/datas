@@ -937,7 +937,7 @@
                 },
                 {
                     "name": "258\u6f2b\u753b\uff08PC\uff09",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "\u4e59\u5973\u6f2b\u753b\uff08PC\uff09",
@@ -989,7 +989,7 @@
                 },
                 {
                     "name": "\u6f2b\u753bLove\uff08PC\uff09",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "\u516d\u6f2b\u753b\uff08PC\uff09",
@@ -1029,7 +1029,7 @@
                 },
                 {
                     "name": "\u6f2b\u753b\u5457\uff08PC\uff09",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u571f\u8c46\u6f2b\u753b\uff08PC\uff09",
@@ -1225,7 +1225,7 @@
                 },
                 {
                     "name": "\u5d29\u574f3\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u6f2b\u753b123",
@@ -1645,7 +1645,7 @@
                 },
                 {
                     "name": "258\u6f2b\u753b",
-                    "version": "0.0.4"
+                    "version": "0.0.5"
                 },
                 {
                     "name": "\u65e0\u9650\u52a8\u6f2b",
@@ -1725,7 +1725,7 @@
                 },
                 {
                     "name": "\u6f2b\u753b\u7c89",
-                    "version": "0.0.2"
+                    "version": "0.0.3"
                 },
                 {
                     "name": "OH\u6f2b\u753b",
@@ -2077,7 +2077,7 @@
                 },
                 {
                     "name": "\u8482\u4e9a\u6f2b\u753b",
-                    "version": "0.0.3"
+                    "version": "0.0.4"
                 },
                 {
                     "name": "2Comic",
@@ -2085,7 +2085,7 @@
                 },
                 {
                     "name": "\u6f2b\u753b\u5457",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "X\u6f2b\u753b",
@@ -2133,7 +2133,7 @@
                 },
                 {
                     "name": "\u6b66\u4fa0\u6f2b\u753b",
-                    "version": "0.0.1"
+                    "version": "0.0.2"
                 },
                 {
                     "name": "\u524d\u672a\u6f2b\u753b",
@@ -2145,6 +2145,14 @@
                 },
                 {
                     "name": "Rawdevart",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "39\u6f2b\u753b",
+                    "version": "0.0.1"
+                },
+                {
+                    "name": "\u5927\u6728\u6f2b\u753b",
                     "version": "0.0.1"
                 }
             ]
